@@ -1,1 +1,37 @@
 @import "tailwindcss";
+body {
+  background: #404040;
+  background: radial-gradient(
+    circle,
+    rgb(49, 49, 49) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.card {
+  background: #404040;
+  background: radial-gradient(
+    circle,
+    rgb(28, 28, 28) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.img2 {
+  background: linear-gradient(
+    60deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.863773) 11.91%,
+    rgba(0, 0, 0, 0) 50%,
+    #000000 96.05%
+  );
+}
+.footer {
+  background: #404040;
+  background: radial-gradient(
+    circle,
+    rgb(49, 49, 49) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
